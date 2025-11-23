@@ -2,7 +2,7 @@
 
 A clean and dynamic React web application that displays a live countdown timer to my upcoming birthday.
 The timer updates in real time, showing the remaining days, hours, minutes, and seconds until the big day.
-This project also includes a visitor counter to track how many users have viewed the site.
+This project also includes a visitor counter to track how many users have viewed the website.
 
 ## 🚀 Features
 
@@ -18,14 +18,14 @@ This project also includes a visitor counter to track how many users have viewed
 
 ## 🛠️ Technologies Used
 
-React
-HTML, CSS, JavaScript (as needed)
+- React
+- HTML, CSS, JavaScript (as needed)
 
 ## 📂 Project Setup
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/yokeshbaskaran/bday-countdown.git
 
 # Navigate into the folder
 cd birthday-countdown
@@ -34,7 +34,7 @@ cd birthday-countdown
 npm install
 
 # Start the development server
-npm start
+npm run dev
 ```
 
 ## 📸 Preview
