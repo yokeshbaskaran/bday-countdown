@@ -1,42 +1,116 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+* {
+  font-family: "Nunito Sans", sans-serif;
+  background-color: #222831;
+  color: #eeeeee;
+}
+
+html,
+body {
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* My name  */
+.name {
+  padding: 0px 10px;
+  text-align: center;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bday {
+  color: #222831;
+  /* opacity: 10%; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+/* My BirthDay Clock */
+.time {
+  font-size: 1.4rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.card {
-  padding: 2em;
+ul {
+  margin: 2px;
+  padding: 0;
 }
 
-.read-the-docs {
-  color: #888;
+li {
+  display: inline-block;
+  font-size: 1.2rem;
+  list-style-type: none;
+  padding: 5px 1.1em;
+  text-transform: capitalize;
+  color: #00adb5;
+}
+
+li span {
+  color: #eeeeee;
+  text-align: center;
+  display: block;
+  font-size: 4rem;
+  font-weight: bold;
+  /* border: 0.5px solid red; */
+}
+
+/* Time zone  */
+.zone p {
+  padding: 1px 0;
+}
+
+.utc {
+  background-color: white;
+  color: black;
+  font-weight: 600;
+}
+
+div > p {
+  color: white;
+  font-weight: 500;
+}
+
+strong {
+  color: #a9a6a6;
+}
+
+/* visit counter */
+
+.visitor {
+  padding: 14px;
+  color: #d8db13;
+  /* border: 2px solid red; */
+}
+
+.detail {
+  padding: 10px 0;
+  font-size: 0.9rem;
+  color: #727272;
+  /* color: #00adb5; */
+  opacity: 95%;
+}
+
+/* footer  */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-top: 1px solid #374151;
+}
+
+.footer-text {
+  color: #d7d7d7;
+  text-align: center;
+}
+
+.footer-author {
+  color: #00adb5;
+  padding: 0 8px;
+  font-weight: bold;
+  font-style: normal;
 }

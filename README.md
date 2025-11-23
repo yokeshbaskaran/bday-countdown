@@ -1,12 +1,40 @@
-# React + Vite
+# Birthday Countdown 🎉
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and dynamic React web application that displays a live countdown timer to my upcoming birthday.
+The timer updates in real time, showing the remaining days, hours, minutes, and seconds until the big day.
+This project also includes a visitor counter to track how many users have viewed the site.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⏳ Real-time countdown timer
+- 📱 Simple & responsive UI
+- 👀 Visitor counter
+- ⚡ Lightweight and fast
 
-## Expanding the ESLint configuration
+## 📅 How It Works
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- The project calculates the next upcoming birthday based on today’s date and dynamically updates the countdown every second.
+- If the birthday for the current year has already passed, it automatically counts down to next year’s birthday.
+
+## 🛠️ Technologies Used
+
+- React
+- HTML, CSS, JavaScript (as needed)
+
+## 📂 Project Setup
+
+```bash
+# Clone the repository
+git clone <repository-url>
+
+# Navigate into the folder
+cd birthday-countdown
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
+```
+
+## 📸 Preview
