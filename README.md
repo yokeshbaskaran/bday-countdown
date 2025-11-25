@@ -19,7 +19,7 @@ This project also includes a visitor counter to track how many users have viewed
 ## 🛠️ Technologies Used
 
 - React
-- HTML, CSS, JavaScript (as needed)
+- HTML, CSS, JavaScript.
 
 ## 📂 Project Setup
 
@@ -28,7 +28,7 @@ This project also includes a visitor counter to track how many users have viewed
 git clone https://github.com/yokeshbaskaran/bday-countdown.git
 
 # Navigate into the folder
-cd birthday-countdown
+cd bday-countdown
 
 # Install dependencies
 npm install

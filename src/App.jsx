@@ -73,7 +73,7 @@ export default function App() {
 
   function handleData(val = null) {
     const data = val?.value ?? 0;
-    console.log("DB Data", val.value);
+    // console.log("DB Data", val.value);
     setVisitors(data);
   }
 
